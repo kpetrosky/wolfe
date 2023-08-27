@@ -1,0 +1,19 @@
+/* VerticalNavBar.css */
+.vertical-navbar {
+    height: 100vh; /* Make the sidebar full height of the viewport */
+    width: 250px; /* Adjust as needed */
+    background-color: #333; /* Set background color */
+    color: white; /* Set text color */
+    padding-top: 20px; /* Add some space at the top */
+    position: fixed; /* Fixed positioning to keep it always visible */
+    left: 0; /* Align to the left */
+    top: 0; /* Align to the top */
+  }
+  
+  .vertical-navbar a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+  }
+  

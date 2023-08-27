@@ -1,0 +1,28 @@
+/* Styling for the main content area */
+.main-content {
+    padding: 20px;
+    background-color: #f9f9f9;
+    display: flex; 
+  }
+  
+  /* Styling for the main heading */
+  .main-heading {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for the subheading */
+  .subheading {
+    font-size: 20px;
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for the about text */
+  .about-text {
+    font-size: 16px;
+    color: #444;
+    line-height: 1.6;
+  }
+  
