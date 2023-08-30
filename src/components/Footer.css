@@ -1,12 +1,22 @@
 /* Define styles for the footer */
-.footer {
+
+  /* Footer.css */
+.footer-image {
+    width: 50px; /* Set your preferred width */
+    height: auto; /* Automatically adjust height based on aspect ratio */
+    border: 1px solid #333; /* Add a border for styling */
+    margin-top: 10px; /* Add some spacing above the image */
+  }
+
+  .footer {
+    display: flex;
     position: fixed;
     left: 0;
-    bottom: 0;
+    bottom: 10px;
     width: 100%;
     background-color: #333;
     color: white;
     text-align: center;
+    /* Padding should probably be adjusted according to your design */
     padding: 10px;
   }
-  

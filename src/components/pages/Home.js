@@ -1,5 +1,6 @@
 import React from "react";
 // import Styles from "./components/styles.css";
+import './Home.css'; 
 
 
 function Home() {
