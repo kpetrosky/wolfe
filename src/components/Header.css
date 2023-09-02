@@ -1,31 +1,19 @@
-/* Style for the main app container */
-.app {
-  display: flex;
-  justify-content: center; /* Horizontally center content */
-  align-items: center; /* Vertically center content */
-  height: 100vh; /* Full viewport height */
-  background-color: white;
-  color: black; /* Set font color to black */
-}
 
-/* Style for the content area */
-.content {
+.header {
   display: flex;
-  flex-direction: column;
-  align-items: center; /* Center items horizontally */
-  justify-content: center; /* Center items vertically */
-  flex-grow: 1;
-  color: rgb(17, 17, 17); /* This won't have any effect since the parent .app background is white */
-}
-
-/* Style for the header section */
-.app-header {
-  background-color: #282c34;
-  min-height: 100vh; /* At least full viewport height */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  background-color: #496f8b;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
+  padding: 75px;
+  text-align: center;
+  margin-left: 55px;
+  background-image: url('../components/images/blackmarble.png');
+  background-size: cover;   
+  background-position: center center;
+
+  }
+
+.header-title {
+  font-size: 2.5rem; /* Adjust the font size as needed */
+  margin-bottom: 0.5rem;
 }

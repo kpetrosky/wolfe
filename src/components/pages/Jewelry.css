@@ -1,45 +1,27 @@
-/* Style for the main container */
+/* Jewelry.css */
+
 .jewelry-container {
-    display: flex; /* Use flexbox for horizontal layout */
-    overflow-x: auto; /* Enable horizontal scrolling for smaller screens */
-    gap: 20px; /* Gap between items */
-    padding: 20px; /* Padding around the container */
-    background-color: #f0f0f0; /* Background color for the container */
-    color: white; /* Text color */
-  }
-  
-  /* Style for each item in the grid */
-  .jewelry-item {
-    flex: 0 0 auto; /* Allow items to grow, but not shrink or expand */
-    min-width: 300px; /* Set a minimum width for each item */
-    background-color: #333; /* Background color for each item */
-    padding: 20px;
-    text-align: center;
-  }
-  
-  /* Heading style within each item */
-  .jewelry-title {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-  }
-  
-  /* Description style within each item */
-  .jewelry-description {
-    font-size: 1rem;
-  }
-  
-  /* Link style within each item */
-  .jewelry-link {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  /* Responsive adjustments */
-  @media (max-width: 768px) {
-    .jewelry-container {
-      flex-wrap: nowrap; /* Prevent wrapping on smaller screens */
-      justify-content: flex-start; /* Align items to the start */
-    }
-  }
-  
+  text-align: center;
+  padding: 75px;
+  overflow-x: auto; /* Enable horizontal scrolling for smaller screens */
+  white-space: nowrap; /* Prevent items from wrapping to the next line */
+  justify-content: center;
+}
+
+.jewelry-grid {
+  display: flex;
+  gap: 100px;
+  justify-content: flex-start; /* Start items from the left */
+  align-items: center;
+  overflow-x: auto; /* Enable horizontal scrolling for smaller screens */
+  white-space: nowrap; /* Prevent items from wrapping to the next line */
+}
+
+.jewelry-item {
+  min-width: 325px; /* Set a minimum width for each item */
+  background-color: #f0f0f0;
+  padding: 60px;
+  text-align: center;
+}
+
+/* Add more styling as needed */

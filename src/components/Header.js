@@ -1,12 +1,17 @@
+// Header.js
 import React from 'react';
-import './Header.css'; 
+import './Header.css'; // Import your CSS file for styling
 
-function Header({ title }) {
+const Header = () => {
   return (
-    <header>
-      <h1>Chained Wolfe MetalCrafts</h1>
+    <header className="header">
+      <div className="branding">
+        <h1>Welcome to Chained Wolfe Metalcrafts</h1>
+        <p>Welcome!</p>
+      </div>
+      {/* Add navigation links or other header content */}
     </header>
   );
-}
+};
 
 export default Header;
